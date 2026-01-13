@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vindev</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Centi</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="assets/images/resume.pdf" class="cv-btn" download>Download CV</a>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hello, I'm <span class="highlight">Vincent</span></h1>
+                    <h2>Senior High Student | Aspiring Frontend Developer</h2>
+                    <p>Passionate about creating beautiful and functional web experiences. Always eager to learn and tackle new challenges in the world of coding.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="mailto:your.email@example.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn primary">See My Portfolio</a>
+                        <a href="#contact" class="btn outline">Contact Me</a>
+                    </div>
+                </div>
+                <div class="profile-container">
+                    <img src="assets/images/vin.jpg" alt="Vincent" class="profile-img">
+                    <div class="glow-ring"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-left">
+                    <div class="about-image">
+                        <img src="assets/images/vin.jpg" alt="Vincent">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+                <div class="about-right">
+                    <div class="about-text">
+                        <p>Senior High School Grade 12 student passionate about coding and web development. Motivated to learn and improve programming skills through hands-on projects and continuous learning.</p>
+                    </div>
+                    <div class="skills">
+                        <h3>Programming Languages</h3>
+                        <div class="skill">
+                            <span class="skill-name">HTML</span>
+                            <div class="progress-bar">
+                                <div class="progress" data-percent="40"></div>
+                            </div>
+                            <span class="percent">40%</span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">CSS</span>
+                            <div class="progress-bar">
+                                <div class="progress" data-percent="30"></div>
+                            </div>
+                            <span class="percent">30%</span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="progress-bar">
+                                <div class="progress" data-percent="25"></div>
+                            </div>
+                            <span class="percent">25%</span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Java</span>
+                            <div class="progress-bar">
+                                <div class="progress" data-percent="40"></div>
+                            </div>
+                            <span class="percent">40%</span>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">MySQL</span>
+                            <div class="progress-bar">
+                                <div class="progress" data-percent="5"></div>
+                            </div>
+                            <span class="percent">5%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="interests">
+                <h3>Interests</h3>
+                <div class="interests-grid">
+                    <div class="interest-card">
+                        <i class="fas fa-basketball-ball"></i>
+                        <span>Basketball</span>
+                    </div>
+                    <div class="interest-card">
+                        <i class="fas fa-book"></i>
+                        <span>Reading</span>
+                    </div>
+                    <div class="interest-card">
+                        <i class="fas fa-volleyball-ball"></i>
+                        <span>Volleyball</span>
+                    </div>
+                    <div class="interest-card">
+                        <i class="fas fa-dumbbell"></i>
+                        <span>Fitness</span>
+                    </div>
+                    <div class="interest-card">
+                        <i class="fas fa-code"></i>
+                        <span>Coding</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio-tabs">
+                <button class="tab-btn active" data-tab="projects">Projects</button>
+                <button class="tab-btn" data-tab="experience">Work Experience</button>
+                <button class="tab-btn" data-tab="education">Education</button>
+            </div>
+            <div class="tab-content">
+                <div id="projects" class="tab-pane active">
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <h4>Portfolio Website</h4>
+                            <p>A responsive personal portfolio website built with HTML, CSS, and JavaScript.</p>
+                            <div class="tech-used">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-buttons">
+                                <a href="#" class="btn small">Demo</a>
+                                <a href="#" class="btn small outline">GitHub</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="experience" class="tab-pane">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h4>Staff</h4>
+                                <p>I worked as a staff at Somo Night Market Bazaar, serving extract juices and shakes, while also handling inventory and sales counting</p>
+                                <span class="year">2025 - Present</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h4>Work Immersion</h4>
+                                <p>Work immersion at Movers Institute gives students hands-on experience and practical skills for future careers.
+</p>
+                                <span class="year">SOON!!</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="education" class="tab-pane">
+                    <div class="education-card">
+                        <h4>JHS Camella Bacoor National High School</h4>
+                        <p>Junior High School</p>
+                        <span class="year">2021 - 2024</span>
+                    </div>
+                    <div class="education-card">
+                        <h4>SHS in San Nicolas 3</h4>
+                        <p>Senior High School</p>
+                        <p>Strand: Information and Communications Technology (ICT)</p>
+                        <span class="year">2024 - Present</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required>
+                    <label for="name">Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" required></textarea>
+                    <label for="message">Message</label>
+                </div>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+  
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Vincent. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="mailto:your.email@example.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+  
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
